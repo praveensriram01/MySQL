@@ -2,12 +2,11 @@
 ## Introduction
 
 > **Module:**
-**1. Database 
-2. DBMS
-3. Types of Databases
-4. RDBMS
-5. Installation & Setup**
-> 
+> 1. Database 
+> 2. DBMS
+> 3. Types of Databases
+> 4. RDBMS
+> 5. Installation & Setup
 
 ### Database
 
