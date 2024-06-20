@@ -19,6 +19,9 @@
 
 <aside>
 💡 A DBMS serves as an interface (Application) between the end-user and a database, allowing users to CRUD (Create, Read, Update, and Delete) data in the database.
+</aside>
+
+<aside>
   
 </aside>
 
@@ -35,30 +38,9 @@
 
 </aside>
 
-**Relational(SQL) Database:**
+<aside>
+  
+</aside>
 
-- It has a predefined schema.
-- It is vertically scalable.
-- It is table-based.
-- Multi-row transactions.
+![image](https://github.com/praveensriram01/MySQL/assets/72486482/6be33547-b0fd-49ac-b3bd-6e25b1f6c42a)
 
-**Example:**
-
-1. MySQL
-2. PostgreSQL
-3. SQL Server
-4. MariaBD
-
-**NoSQL Database:**
-
-- It has a dynamic schema for unstructured data.
-- It is horizontally scalable.
-- It is a document, key-value, graph, or wide-column.
-- It is for unstructured data like documents or JSON.
-
-**Example:**
-
-1. MongoDB
-2. Firebase
-3. Redis
-4. Cassandra
