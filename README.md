@@ -100,7 +100,7 @@ shipping_id	 status	 customer
 
 ### Logical Operator [ AND, OR, NOT ]
 
-## AND Operator
+#### AND Operator
 ```
 SELECT * 
 FROM Orders
@@ -114,7 +114,7 @@ zorder_id	  item	     amount	customer_id
 4	          Keyboard	  400	   1
 ```
 
-## OR Operator
+#### OR Operator
 ```
 SELECT * 
 FROM Orders
@@ -130,7 +130,7 @@ order_id	item	    amount	customer_id
 5	        Mousepad	250	    2
 ```
 
-## NOT Operator
+#### NOT Operator
 ```
 SELECT * 
 FROM Orders
