@@ -70,7 +70,8 @@
 ```sql
 SELECT *
 FROM Shippings;
-
+```
+```
 -- OP:
 shipping_id	 status	    customer
 1	           Pending	   2
@@ -78,18 +79,18 @@ shipping_id	 status	    customer
 3	           Delivered	 3
 4	           Pending	   5
 5	           Delivered 	 1
-
 ```
 
 ### Select Clause
 
 ### Where Clause
 
-```sql
+```
 SELECT * 
 FROM Shippings 
 WHERE status = "Pending";
-
+```
+```
 -- OP:
 shipping_id	 status	 customer
 1.           Pending	  2
@@ -99,21 +100,27 @@ shipping_id	 status	 customer
 
 ### Logical Operator [ AND, OR, NOT ]
 
-```sql
--- AND Operator
+## AND Operator
+```
 SELECT * 
 FROM Orders
 WHERE amount >=300 AND amount <= 400;
+```
+```
 -- OP:
 zorder_id	  item	     amount	customer_id
 1	          Keyboard	  400	   4
 2	          Mouse	      300	   4
 4	          Keyboard	  400	   1
+```
 
--- OR Operator
+## OR Operator
+```
 SELECT * 
 FROM Orders
 WHERE NOT (amount >=300 OR amount <=400);
+```
+```
 -- OP:
 order_id	item	    amount	customer_id
 1	        Keyboard	400	    4
@@ -121,11 +128,15 @@ order_id	item	    amount	customer_id
 3	        Monitor	  12000	  3
 4	        Keyboard	400	    1
 5	        Mousepad	250	    2
+```
 
--- NOT Operator
+## NOT Operator
+```
 SELECT * 
 FROM Orders
 WHERE NOT (amount >=300 AND amount <=400);
+```
+```
 -- OP:
 order_id	item	    amount	customer_id
 3	        Monitor	  12000	   3
