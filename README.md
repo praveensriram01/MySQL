@@ -63,7 +63,8 @@
 - Replication and sharing are available
 - Covers a wide range of use cases
 
-# Querying
+# Querying 
+Online SQL Editor: https://www.programiz.com/sql/online-compiler/
 
 ### Select Statement
 
